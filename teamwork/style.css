@@ -6,9 +6,16 @@
 
 body {
     font-family: 'Lato', sans-serif;
-    height: 100vh;
+    
     color: #4a5d8b;
-    background-image: url("");
+    background-image: url("https://raw.githubusercontent.com/duaren/10PSD-design-to-HTML-CSS-JS/main/teamwork/img/bg.png");
+    background-color: white;
+    background-size: cover;
+    background-origin:border-box;
+    background-position: left top;
+    height: 100vh;
+    
+    
 }
 
 nav {
@@ -39,7 +46,7 @@ nav li {
 section {
     display: flex;
     justify-content: space-around;
-    padding-top: 100px;
+    padding-top: 180px;
 }
 
 section h1{
@@ -73,7 +80,8 @@ a {
 }
 
 footer{
-    padding-top: 100px;
+    padding-top: 80px;
+    padding-bottom: 10px;
 }
 footer ul {
     list-style-type: none;
@@ -88,6 +96,6 @@ i {
     align-items: center;
     width: 30px;
     height: 30px;
-    padding: 9px;
+    padding: 9.75px;
     border-radius: 50%;
 }
