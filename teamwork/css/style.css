@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    
+    color: #4a5d8b;
+    background-image: url("https://raw.githubusercontent.com/duaren/10PSD-design-to-HTML-CSS-JS/main/teamwork/img/bg.png");
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin:border-box;
+    background-position: left top;
+    height: 100vh;
+    
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between; 
+    padding: 0 30px 0 30px;
+}
+nav a {
+font-weight: bold;
+font-size: 19px;
+padding: 40px;
+text-decoration: none;
+
+}
+nav ul{
+    list-style-type: none;
+    font-weight: bold;
+    display: flex;
+    width: 50%;
+    justify-content: space-between; 
+    
+}
+nav li {
+    padding: 25px;
+    font-size: larger;
+     
+}
+section {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 180px;
+}
+
+section h1{
+ font-size: 2.5rem;
+}
+section p {
+    font-size: 1.2rem;
+    font-weight:400;
+    text-align: justify;
+}
+.container, .vector-image {
+    width: 40%;
+    padding: 0px;
+    
+}
+.vector-image img {
+    width: 80%;
+    
+}
+
+.links a {
+    color: black;
+    background-color: #b3eaff;
+    border-radius: 25px;
+    padding: 10px;
+    margin-right: 25px;
+    font-size: 0.85rem;
+    font-weight: bold;
+
+}
+
+a {
+    text-decoration: none;
+    color: #4a5d8b;
+}
+
+footer{
+    padding-top: 80px;
+    padding-bottom: 10px;
+}
+footer ul {
+    list-style-type: none;
+    margin: 35px;
+}
+footer li {
+    display: inline-block;
+}
+i {
+    color: white;
+    background-color: #4a5d8b;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    padding: 9.75px;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+        background-image: none;
+    }
+    nav a {
+        padding: 15px;
+        font-size: 14px;
+    }
+    nav ul {
+        display: flex;
+        width: 100%;
+    }
+    nav li {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    section {
+        padding-top: 20px;
+        display: block;
+    }
+    
+    section h1 {
+      font-size: 3rem;
+    }
+    .container, .vector-image {
+        width: 100%;
+        padding: 20px;
+        
+    }
+    .vector-image img {
+        width: 100%;
+    }
+    
+    .links {
+        align-content: center;
+    }
+    footer{
+        padding-top: 50px;
+    }
+    footer ul {
+        margin: 10px;
+    }
+  }
+
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+@media screen and (max-width: 600px) {
+  
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media screen and (max-width: 768px) {
+    nav a {
+        padding: 20px;
+        font-size: 16px;
+    }
+    nav li {
+      padding: 5px;
+      font-size: 16px;
+    }
+    section  {
+        padding-top: 80px;
+    }
+    section h1{
+        font-size: 1.5rem;
+    }
+    section p {
+        font-size: 0.85rem;
+    }
+    footer {
+        padding-top: 40px;
+        padding-bottom: 5px;
+    }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media screen and (max-width: 992px) {
+    nav a {
+        padding: 18px;
+        font-size: 18px;
+    }
+    nav li {
+      padding: 5px;
+      font-size: 18px;
+    }
+  section  {
+    padding-top: 100px;
+  }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+  
+}
