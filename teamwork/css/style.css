@@ -107,11 +107,6 @@ i {
     border-radius: 50%;
 }
 
-@media screen and (max-width: 320px) {
-
-}
-
-
 @media screen and (max-width: 480px) {
     body {
         background-image: none;
