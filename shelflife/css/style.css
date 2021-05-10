@@ -1,0 +1,222 @@
+
+@font-face {
+	font-family: "Proxima Nova";
+	src: url('/webfont/Proxima Nova Regular.ttf');
+}
+@font-face {
+	font-family: "Proxima Nova";
+	font-weight: bold;
+	src: url('webfont/Proxima Nova Semibold.ttf');
+}
+
+body {
+ font-family: "Proxima Nova", Roboto, Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-image: url('../img/hero.jpg');
+  background-size: cover;
+}
+.banner {
+  height: 50vw;
+}
+.dark-nav {
+  background-color: black;
+}
+.dark-nav li { 
+  display: inline;
+}
+.dark-nav a {
+  text-decoration: none;
+  color: #686868;
+}
+.nav-brand {
+  position: absolute;
+  z-index: 1;
+}
+.nav-content {
+  padding-left: 190px;
+  padding-top: 8px;
+  display:inline-block;
+  width:100%;
+ 
+}
+.nav-content a {
+  font-size: 10px;
+  font-weight:700;
+}
+.right {
+  padding-left:23%;
+}
+.nav-content li {
+  padding-left: 20px;
+}
+.navbar {
+  background-color: #fff;
+  padding:  0  0 0 170px !important;
+}
+.navbar a{
+  color: black;
+  padding: 20px 25px !important;
+}
+.nav-link {
+  border-right: solid 2px whitesmoke;
+  font-weight: 700;
+}
+.icons {
+  border-left: solid 2px whitesmoke;
+}
+.puma-logo {
+  border-bottom: solid 2px #ff6600;
+  width: 80px;
+  height: 70px;
+  padding-bottom: 30px;
+}
+a {
+  text-decoration: none !important; 
+}
+
+li {
+  list-style-type: none;
+}
+
+.title {
+  color: #fff;
+}
+.title h1 {
+  font-size: 60px;
+}
+.tag {
+  color: #adadad;
+}
+.btn {
+  color: #fff !important;
+  border: solid 2px #fff !important;
+  border-radius: 0rem !important;
+  font-size: .70rem !important;
+  padding: 12px 20px !important;
+}
+.ban {
+  position: relative;
+  top: -20px;
+}
+.ban h1 {
+  color: #fff;
+}
+
+.ban-nixon {
+  background-color: #ff6600;
+}
+.ban-air-max {
+  background-color: #d2d2d2;
+}
+
+/* Galery*/
+.galery .col-sm-6 {
+  padding: 0px;
+}
+.Layer {
+  width: 590px;
+  height: 590px;
+}
+.layer-mini {
+  max-width: 279px !important;
+  max-height: 279px !important;
+}
+
+
+
+
+
+/* Pagination CSS 
+.pagination {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1600px;
+    height: 4800px;
+    z-index: 100;
+  }
+  .Shape_5_copy_4 {
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0);
+    opacity: 0.4;
+    position: absolute;
+    left: 836px;
+    top: 786px;
+    width: 8px;
+    height: 8px;
+    z-index: 99;
+  }
+  .Shape_5_copy_3 {
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0);
+    opacity: 0.4;
+    position: absolute;
+    left: 815px;
+    top: 786px;
+    width: 8px;
+    height: 8px;
+    z-index: 98;
+  }
+  .Shape_5_copy_2 {
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0);
+    opacity: 0.4;
+    position: absolute;
+    left: 794px;
+    top: 786px;
+    width: 8px;
+    height: 8px;
+    z-index: 97;
+  }
+  .Shape_5_copy {
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 775px;
+    top: 788px;
+    width: 4px;
+    height: 4px;
+    z-index: 96;
+  }
+  .Shape_5 {
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0);
+    opacity: 0.4;
+    position: absolute;
+    left: 752px;
+    top: 786px;
+    width: 8px;
+    height: 8px;
+    z-index: 95;
+  }
+  
+  */
+
+  .Layer_188_copy {
+    background-image: url("Layer 188 copy.png");
+    position: absolute;
+    left: 837px;
+    top: 909px;
+    width: 510px;
+    height: 264px;
+    z-index: 134;
+  }
+    
+  
