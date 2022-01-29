@@ -1,3 +1,17 @@
+// Import React
+const title = (
+    <div className="title-block">
+        <h1 className="title">10PSD Design Website to HTML/CSS/JS</h1>
+    </div>
+)
+   
+ReactDOM.render(
+    title,
+    document.getElementById("root")
+)
+
+
+// PSD OBJECT LIST
 const psdList = [
     {
         id: 1,

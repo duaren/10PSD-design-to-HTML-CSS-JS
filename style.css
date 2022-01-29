@@ -10,12 +10,15 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-image: url('wd.png');
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .title-block {
     width: 50%;
     margin: auto;
-    padding-top: 50px;
+    padding-top: 30px;
     justify-content: center;
     
     
@@ -28,7 +31,7 @@ body {
 }
 
 .list-block {
-    width: fit-content;
+    width: max-content;
     margin: auto;
     align-items: center;
     justify-content: center;
@@ -36,6 +39,7 @@ body {
 
 ol li {
     padding-top: 16px;
+    justify-content: center;
 }
 ol a {
     text-decoration: none;
