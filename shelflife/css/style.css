@@ -119,6 +119,9 @@ li {
 .main {
   background-color: #fff;
 }
+.bg-grey {
+  background-color: #f4f4f4;
+}
 .ban {
   position: relative;
   top: -30px;
@@ -154,25 +157,24 @@ li {
 }
 
 /* Galery*/
-
-.wr-arrow {
-  position: relative;
-  width: 5%;
-  height: auto;
-  top: calc(-50% - 15px) ;
-}
-.wl-arrow {
-  position: relative;
-  width: 5%;
-  height: auto;
-  top: calc(-50% - 15px);
-  right: -96%;
-}
 h3 {
   font-size: 1.25rem !important;
 }
-.bg-grey {
-  background-color: #f4f4f4;
+img {
+  max-width: 100%;
+  height: 100%;
+}
+
+.mini {
+  align-items: center;
+  text-align: center;
+  background-color: #fff;
+  justify-content: center;
+  display: flex;
+}
+.mini i {
+  font-size: 30px;
+  color: #ff6600;
 }
 
 /*Galery grid*/
@@ -274,22 +276,7 @@ h3 {
 
 .zone8 { grid-area: zone8; }
 
-img {
-  max-width: 100%;
-  height: 100%;
-}
-
-.mini {
-  align-items: center;
-  text-align: center;
-  background-color: #fff;
-  justify-content: center;
-  display: flex;
-}
-.mini i {
-  font-size: 30px;
-  color: #ff6600;
-}
+/*Galery grid end*/
 
 .btn-3 {
   color: black !important;
@@ -403,7 +390,9 @@ footer .f-list a:hover {
   .brands-logo ul i {
     display: none;
   }
-  footer a{
+  
+
+  footer a {
     font-size: .68rem;
     justify-content: center;
   }
@@ -433,17 +422,32 @@ footer .f-list a:hover {
   }
 }
 @media (max-width: 575.98px) {
-
+  h3 {
+    font-size: .5rem !important;
+  }
+  .mini i {
+    font-size: 15px;
+  }
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) { 
-
+  h3 {
+    font-size: .9rem !important;
+  }
+  .mini i {
+    font-size: 18px;
+  }
 }
 
 /*  Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) { 
-  
+  h3 {
+    font-size: 1rem !important;
+  }
+  .mini i {
+    font-size: 22px;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
